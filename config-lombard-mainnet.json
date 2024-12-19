@@ -1,0 +1,67 @@
+{
+    "isTestnet": false,
+    "appName": "Lombard Pool",
+    "appNameHeader": {
+        "from": "blue",
+        "to": "violet",
+        "deg": 92
+    },
+    "tonConnectProps": {
+        "manifestUrl": "https://lombard-ton.github.io/tonconnect-manifest.json",
+        "twaReturnUrl": "https://t.me/tonlombardbot/App"
+    },
+    "tonApiProps": {
+        "clientSideKey": "AEOWW47RRNQWVMYAAAAKSUU76L4CUEXEOSYFYUH47LAWQI7ZHGPU2FQUWZSVN4QSZOBR5AI",
+        "serverUrl": "https://tonapi.io/v2/"
+    },
+    "bankAddress": "EQBzCRRH8nG24lgzy9GxQuvJrvwbXwPU2YBtIUp8Ya_m7DRt",
+    "creditCollectionAddress": [
+        "0:d0c2c4916ded6b0d7ac3c625b74b545a405e1e9834d9656e082b12453fd4438e"
+    ],
+    "holderCollections": [
+        "0:fc7744b7196a817880082d7617915cb6eb0f10f36deae3cc90df19a5dffc12df"
+    ],
+    "holderCollectionsProps": [
+        {
+            "limitAttributeName": "type",
+            "limitAttributes": {
+                "Shark": 20,
+                "Whale": 35,
+                "default": 10
+            }
+        }
+    ],
+    "allowedCollections": [],
+    "allowedCollectionsProps": [
+        {
+            "verifier": "EQCk2rYR2qTouaDeubTo4fUEbO0iE_iLiCAvaqPFRCGAJv0C",
+            "size": 3,
+            "interest": 1,
+            "duration": 7
+        }
+    ],
+    "aboutHtml": "<article><h1>Krediton TMA Lending Tool</h1> <p>Allow collection owners to easily integrate a lending tool exclusive to their collection's NFTs.</p><p>Krediton TMA Lending Tool (KLT) allows collection owners (CO) to easily integrate a lending tool exclusive to their collection's NFTs. Krediton seemlessly customises the KLT for a specific collection, which the CO can integrate into their existing community tools. How it works: CO creates an account on Krediton B2B platform. Using a streamlined no-code process, CO builds their own smartcontract-based KLT TMA which they integrate into their existing infrastructure. CO then replenishes their own KLT TON pool (secure by design, with NO external access to funds) from which their holders can obtain automated lending using their NFT as collateral, with a fixed term return. CO thus gains the following advantages: 1. providing holders with a useful lending service, while easily managing risk (in case of non-repayment, they recover their own NFT); 2. lending terms (loan amount, repayment deadline, interest) can take into account the collection's specifics: tier, holder's status (wealth) and any other NFT attributes. Krediton takes a small fixed per-loan fee plus a percentage of profits resulting from KLT use (interest). All other profits go directly to CO.</p></article>",
+    "heroPage": {
+        "title": {
+            "first": "Сервис",
+            "second": "кредитования",
+            "third": "в сети TON"
+        },
+        "description": "TON Lombard - сервис кредитования под залог NFT в сети TON. TON Lombard работает на децентрализованной технологии Krediton Lending Tool.",
+        "image": "https://avatars.mds.yandex.net/i?id=11106400e8f9ef4919a76372e10fac47_sr-8082760-images-thumbs&n=13",
+        "items": [
+            {
+                "main": "Безопасно",
+                "desc": "ваши средства и NFT под надёжной защитой смарт-контрактов."
+            },
+            {
+                "main": "Выгодно",
+                "desc": "небольшие процентные ставки и комиссия сети за выдачу кредита."
+            },
+            {
+                "main": "Пассивный доход",
+                "desc": "для холдеров TON Lombard реализована программа депозитов."
+            }
+        ]
+    }
+}
