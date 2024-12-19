@@ -1,0 +1,13 @@
+{
+    "name": "Lombard KLT Loans",
+    "description": "Кредитование под залог NFT на основе Krediton Lending Tools.",
+    "image": "https://lombard-ton.github.io/meta/lom-klt-collection-v-1-0-0-image.jpeg",
+    "external_url": "https://getgems.io/lombard",
+    "external_link": null,
+    "social_links": [
+        "https://t.me/krediton",
+        "https://t.me/TON_Lombard"
+    ],
+    "marketplace": "getgems.io",
+    "cover_image": "ipfs://QmNfDJeU3AuSnSL5Xk2pu2sJSVh4Bx1JsEWbbL77biTsEb/cover_image.png"
+}
