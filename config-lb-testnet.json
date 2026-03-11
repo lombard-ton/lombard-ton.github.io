@@ -1,0 +1,161 @@
+{
+    "isTestnet": true,
+    "tonConnectProps": {
+        "manifestUrl": "https://lucky-bank.github.io/tonconnect-manifest.json",
+        "twaReturnUrl": "https://t.me/lucky_bankbot/App"
+    },
+    "tonApiProps": {
+        "clientSideKey": "AHOPL4UVTX653AIAAAAPQTBMQRXITK7EAVQGZ7LKHHUSJOYTVFIVYJ3S2GM7NU2S7AEYZVA",
+        "serverUrl": "https://testnet.tonapi.io/v2/",
+        "limitPerSecond": 0.85
+    },
+    "tonCenterProps": {
+        "apiKey": "469dfe30c9b36a26b45115c09d32a1490443667976f94b64345fedbaf7fd53c9",
+        "serverUrl": "https://testnet.toncenter.com/",
+        "limitPerSecond": 1
+    },
+    "bankAddress": "kQDuWhldFshmr2Drf5rlL620FaRhtECKQ4X5W3hRKCuRvZI2",
+    "usdtBankAddress": "kQC8iM_lVKh41EHnyHIxuPOpHIOhudtklIzSKqxLdawla4kp",
+    "usdtMaster": "kQDU01R7mpjj7KbW0qRdJfgBuvO_ZEgSMhrUNbVY59BC7k3D",
+    "usdtVerifier": "kQC8dxYQxvU-7y9XZwiM-6QAQgzdjopyDwzNyZuNITfjRzGJ",
+    "creditCollectionAddress": [
+        "0:810fc3f8394d6b3394c4d027299a2c765ee86ecffd024e99e66e59b425e8cbca",
+        "0:4b9642c5cc4a504dfc47f4d4046a6f12be8b16bf39b0b754e290c4db88de387e",
+        "0:bc771610c6f53eef2f5767088cfba400420cdd8e8a720f0ccdc99b8d2137e347",
+        "0:057b9020572bb5db51a66cca15f8ac71172bd5a98f78697638cf323c0056ac25"
+    ],
+    "holderCollections": [
+        "0:14250d381710897d0c67ece2252d318c36e9546f0addc5f682a3adbabad1dd28",
+        "0:a97046b3804a5a5c554d8d2cf39e38e5a965669c891635a1e77e2d16164a85ac",
+        ""
+    ],
+    "holderCollectionsProps": [
+        {
+            "limitAttributes": {
+                "default": 25
+            }
+        },
+        {
+            "limitAttributes": {
+                "default": 25
+            }
+        }
+    ],
+    "onlyHolderRights": {
+        "extend": true
+    },
+    "allowedCustomNftProps": [],
+    "allowedUsdtCollectionsProps": [
+        {
+            "verifier": "EQA_IMQP9Z6Z9hP3oJ_SJMfBHLxg4JOmhKVFe_EKAd6pg2KX",
+            "usdt": true,
+            "size": 5.0,
+            "interest": 0.5,
+            "duration": 0.4,
+            "overPayment": 0.4,
+            "minimal": 0.4,
+            "address": "0:14250d381710897d0c67ece2252d318c36e9546f0addc5f682a3adbabad1dd28",
+            "name": "Lucky NFT",
+            "logo": "https://cache.tonapi.io/imgproxy/s3m_XTTXOhfRywlvebVG1jovlmapx-B6qckK5BBYgcQ/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQzYTc4MDMyMzFlM2JlMjFiMjE5YjcyL2VkaXQvaW1hZ2VzLzY0NjY3MjRhZGZhYThlZTAxM2I1OWI1NS5naWY.webp"
+        },
+        {
+            "verifier": "EQAR3b8NqemRbWfI4f_mYcM_NlvtEmcBOJbkzjVjH23_FjjU",
+            "usdt": true,
+            "size": 10.0,
+            "interest": 11,
+            "duration": 0.2,
+            "overPayment": 0.333,
+            "minimal": 0.4,
+            "address": "0:a97046b3804a5a5c554d8d2cf39e38e5a965669c891635a1e77e2d16164a85ac",
+            "name": "Frizie Frona Arts",
+            "logo": "https://cache.tonapi.io/imgproxy/hyFbAE99rCZMoSnaTlUNUxcPSJcZj0qxYMgixLCM4Ms/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQyMzJiMzJmMmU3OWZlMTI4YmE3MjE5L2VkaXQvaW1hZ2VzLzY0MjM1MzU5NGE0M2ExY2RkNGQ5N2I1OC5qcGc.webp"
+        }
+    ],
+    "allowedCollectionsProps": [
+        {
+            "verifier": "kQCmWKsK23vfIqdZJnyThwtdFkqiEPp9Q96ARDYQ_rguUtoI",
+            "size": 2.0,
+            "interest": 0.1,
+            "duration": 3,
+            "overPayment": 0.49,
+            "minimal": 0.1,
+            "address": "0:14250d381710897d0c67ece2252d318c36e9546f0addc5f682a3adbabad1dd28",
+            "name": "Lucky NFT",
+            "logo": "https://cache.tonapi.io/imgproxy/s3m_XTTXOhfRywlvebVG1jovlmapx-B6qckK5BBYgcQ/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQzYTc4MDMyMzFlM2JlMjFiMjE5YjcyL2VkaXQvaW1hZ2VzLzY0NjY3MjRhZGZhYThlZTAxM2I1OWI1NS5naWY.webp"
+        },
+        {
+            "verifier": "EQC3eEr-9I2vAZAjVngsiNHiAWjbYKB5xXo9_QIbgofMmwWj",
+            "size": 2.5,
+            "interest": 1,
+            "duration": 10,
+            "overPayment": 0.25,
+            "minimal": 0.1,
+            "address": "0:a97046b3804a5a5c554d8d2cf39e38e5a965669c891635a1e77e2d16164a85ac",
+            "name": "Frizie Frona Arts",
+            "logo": "https://cache.tonapi.io/imgproxy/hyFbAE99rCZMoSnaTlUNUxcPSJcZj0qxYMgixLCM4Ms/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQyMzJiMzJmMmU3OWZlMTI4YmE3MjE5L2VkaXQvaW1hZ2VzLzY0MjM1MzU5NGE0M2ExY2RkNGQ5N2I1OC5qcGc.webp"
+        }
+    ],
+    "appNameHeader": {
+        "from": "orange",
+        "to": "lime",
+        "deg": 120
+    },
+    "heroPage": {
+        "image": "https://lucky-bank.github.io/meta/lb-pool-token-v-1-0-0-logo.png",
+        "itemsCount": 3
+    },
+    "translates": {
+        "en": {
+            "appName": "Lucky Bank",
+            "aboutHtml": "<article><h1>Lucky Bank</h1> <p>Allow collection owners to easily integrate a lending tool exclusive to their collection's NFTs.</p><p>Krediton TMA Lending Tool (KLT) allows collection owners (CO) to easily integrate a lending tool exclusive to their collection's NFTs. Krediton seemlessly customises the KLT for a specific collection, which the CO can integrate into their existing community tools. How it works: CO creates an account on Krediton B2B platform. Using a streamlined no-code process, CO builds their own smartcontract-based KLT TMA which they integrate into their existing infrastructure. CO then replenishes their own KLT TON pool (secure by design, with NO external access to funds) from which their holders can obtain automated lending using their NFT as collateral, with a fixed term return. CO thus gains the following advantages: 1. providing holders with a useful lending service, while easily managing risk (in case of non-repayment, they recover their own NFT); 2. lending terms (loan amount, repayment deadline, interest) can take into account the collection's specifics: tier, holder's status (wealth) and any other NFT attributes. Krediton takes a small fixed per-loan fee plus a percentage of profits resulting from KLT use (interest). All other profits go directly to CO.</p></article>",
+            "heroPage": {
+                "title": {
+                    "first": "Loan",
+                    "second": "service",
+                    "third": "in the TON network"
+                },
+                "description": "Lucky Bank is a lending service secured by NFT in the TON network. Lucky Bank operates on the decentralized Krediton Lending Tool technology and is part of the Lucky TON ecosystem.",
+                "items": [
+                    {
+                        "main": "Safely",
+                        "desc": "your funds and NFTs are securely protected by smart contracts."
+                    },
+                    {
+                        "main": "Advantageous",
+                        "desc": "low interest rates and network fees for issuing a loan."
+                    },
+                    {
+                        "main": "Passive income",
+                        "desc": "a deposit program has been implemented for holders of the Lucky TON ecosystem."
+                    }
+                ]
+            }
+        },
+        "ru": {
+            "appName": "Lucky Bank",
+            "aboutHtml": "<article><h1>Lucky Bank</h1> <p>Allow collection owners to easily integrate a lending tool exclusive to their collection's NFTs.</p><p>Krediton TMA Lending Tool (KLT) allows collection owners (CO) to easily integrate a lending tool exclusive to their collection's NFTs. Krediton seemlessly customises the KLT for a specific collection, which the CO can integrate into their existing community tools. How it works: CO creates an account on Krediton B2B platform. Using a streamlined no-code process, CO builds their own smartcontract-based KLT TMA which they integrate into their existing infrastructure. CO then replenishes their own KLT TON pool (secure by design, with NO external access to funds) from which their holders can obtain automated lending using their NFT as collateral, with a fixed term return. CO thus gains the following advantages: 1. providing holders with a useful lending service, while easily managing risk (in case of non-repayment, they recover their own NFT); 2. lending terms (loan amount, repayment deadline, interest) can take into account the collection's specifics: tier, holder's status (wealth) and any other NFT attributes. Krediton takes a small fixed per-loan fee plus a percentage of profits resulting from KLT use (interest). All other profits go directly to CO.</p></article>",
+            "heroPage": {
+                "title": {
+                    "first": "Сервис",
+                    "second": "кредитования",
+                    "third": "под залог NFT"
+                },
+                "description": "Lucky Bank - сервис кредитования под залог NFT в сети TON. Lucky Bank работает на децентрализованной технологии Krediton Lending Tool и является частью экосистемы Lucky TON.",
+                "items": [
+                    {
+                        "main": "Безопасно",
+                        "desc": "ваши средства и NFT под надёжной защитой смарт-контрактов."
+                    },
+                    {
+                        "main": "Выгодно",
+                        "desc": "небольшие процентные ставки и комиссия сети за выдачу кредита."
+                    },
+                    {
+                        "main": "Пассивный доход",
+                        "desc": "для холдеров экосистемы Lucky TON реализована программа депозитов."
+                    }
+                ]
+            }
+        }
+    }
+}
