@@ -86,5 +86,17 @@
     "Action": "Action",
     "Select": "Select",
     "Selected": "Selected",
-    "selected": "selected"
+    "selected": "selected",
+    "loading_steps": {
+      "bank": "Loading bank data",
+      "nfts": "Loading NFTs",
+      "credits": "Loading credits",
+      "account": "Loading account",
+      "auctions": "Loading auctions",
+      "loading": "Loading...",
+      "loading_nfts": "Loading NFTs",
+      "nft_warning": "Processing {{count}} NFTs may take up to 30 seconds",
+      "error_occurred": "Error occurred during loading",
+      "reload": "Reload"
+    }
 }
