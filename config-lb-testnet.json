@@ -47,18 +47,6 @@
     "allowedCustomNftProps": [],
     "allowedUsdtCollectionsProps": [
         {
-            "verifier": "EQA_IMQP9Z6Z9hP3oJ_SJMfBHLxg4JOmhKVFe_EKAd6pg2KX",
-            "usdt": true,
-            "size": 5.0,
-            "interest": 0.5,
-            "duration": 0.4,
-            "overPayment": 0.4,
-            "minimal": 0.4,
-            "address": "0:14250d381710897d0c67ece2252d318c36e9546f0addc5f682a3adbabad1dd28",
-            "name": "Lucky NFT",
-            "logo": "https://cache.tonapi.io/imgproxy/s3m_XTTXOhfRywlvebVG1jovlmapx-B6qckK5BBYgcQ/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQzYTc4MDMyMzFlM2JlMjFiMjE5YjcyL2VkaXQvaW1hZ2VzLzY0NjY3MjRhZGZhYThlZTAxM2I1OWI1NS5naWY.webp"
-        },
-        {
             "verifier": "EQAR3b8NqemRbWfI4f_mYcM_NlvtEmcBOJbkzjVjH23_FjjU",
             "usdt": true,
             "size": 10.0,
@@ -77,22 +65,20 @@
             "size": 2.0,
             "interest": 0.1,
             "duration": 3,
-            "overPayment": 0.49,
-            "minimal": 0.1,
+            "type": 0,
             "address": "0:14250d381710897d0c67ece2252d318c36e9546f0addc5f682a3adbabad1dd28",
             "name": "Lucky NFT",
             "logo": "https://cache.tonapi.io/imgproxy/s3m_XTTXOhfRywlvebVG1jovlmapx-B6qckK5BBYgcQ/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQzYTc4MDMyMzFlM2JlMjFiMjE5YjcyL2VkaXQvaW1hZ2VzLzY0NjY3MjRhZGZhYThlZTAxM2I1OWI1NS5naWY.webp"
         },
         {
-            "verifier": "EQC3eEr-9I2vAZAjVngsiNHiAWjbYKB5xXo9_QIbgofMmwWj",
-            "size": 2.5,
-            "interest": 1,
-            "duration": 10,
-            "overPayment": 0.25,
-            "minimal": 0.1,
-            "address": "0:a97046b3804a5a5c554d8d2cf39e38e5a965669c891635a1e77e2d16164a85ac",
-            "name": "Frizie Frona Arts",
-            "logo": "https://cache.tonapi.io/imgproxy/hyFbAE99rCZMoSnaTlUNUxcPSJcZj0qxYMgixLCM4Ms/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQyMzJiMzJmMmU3OWZlMTI4YmE3MjE5L2VkaXQvaW1hZ2VzLzY0MjM1MzU5NGE0M2ExY2RkNGQ5N2I1OC5qcGc.webp"
+            "verifier": "kQDfTtf_41I973bbKJWqbUagHxXXWFNNze8lrM-wWsiOoujM",
+            "size": 1.0,
+            "interest": 0.5,
+            "duration": 1,
+            "type": 2,
+            "address": "0:738e8bca3b39a53a3e9d1f2900946e4c8f97ba3d6a0fd428be3cd3d764817587",
+            "name": "Homemade Cakes",
+            "logo": "https://nft.fragment.com/collection/homemadecake.webp"
         }
     ],
     "appNameHeader": {
