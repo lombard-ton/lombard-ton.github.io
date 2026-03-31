@@ -28,6 +28,7 @@
   "Auction is over": "Auction is over",
   "Loan": "Loan",
   "Date": "Date",
+  "Time left": "Time left",
   "End": "End",
   "Status": "Status",
   "Start bid": "Start bid",
@@ -99,5 +100,7 @@
     "nft_warning": "Processing {{count}} NFTs may take up to 30 seconds",
     "error_occurred": "Error occurred during loading",
     "reload": "Reload"
-  }
+  },
+  "table_time_left": "Left",
+  "table_debt": "Debt"
 }
