@@ -1,5 +1,6 @@
 {
     "isTestnet": true,
+    "botUrl": "https://t.me/Kreditonbot",
     "tonConnectProps": {
         "manifestUrl": "https://lucky-bank.github.io/tonconnect-manifest.json",
         "twaReturnUrl": "https://t.me/lucky_bankbot/App"
@@ -99,7 +100,36 @@
                         "desc": "a deposit program has been implemented for holders of the Lucky TON ecosystem."
                     }
                 ]
-            }
+            },
+            "banners": [
+                {
+                    "id": "referral",
+                    "badge": "New",
+                    "title": "Earn with Krediton",
+                    "description": "Invite friends and get bonuses for each successful loan",
+                    "button": "Learn more",
+                    "link": "/settings",
+                    "hiddenKey": "banner_referral_hidden_until"
+                },
+                {
+                    "id": "table_view",
+                    "badge": "New",
+                    "title": "Table View Available",
+                    "description": "Switch to table view to see all your NFTs in a compact format",
+                    "button": "Try it",
+                    "link": "/",
+                    "hiddenKey": "banner_table_hidden_until"
+                },
+                {
+                    "id": "mass_renewal",
+                    "badge": "New",
+                    "title": "Mass Loan Renewal",
+                    "description": "Select multiple credits and renew them all at once",
+                    "button": "Try it",
+                    "link": "/pledge",
+                    "hiddenKey": "banner_mass_hidden_until"
+                }
+            ]
         },
         "ru": {
             "appName": "Lucky Bank",
@@ -125,7 +155,36 @@
                         "desc": "для холдеров экосистемы Lucky TON реализована программа депозитов."
                     }
                 ]
-            }
+            },
+            "banners": [
+                {
+                    "id": "referral",
+                    "badge": "New",
+                    "title": "Зарабатывай с Krediton",
+                    "description": "Приглашай друзей и получай бонусы за каждый успешный кредит",
+                    "button": "Узнать больше",
+                    "link": "/settings",
+                    "hiddenKey": "banner_referral_hidden_until"
+                },
+                {
+                    "id": "table_view",
+                    "badge": "New",
+                    "title": "Табличный вид",
+                    "description": "Переключись на табличный вид для компактного отображения всех NFT",
+                    "button": "Попробовать",
+                    "link": "/",
+                    "hiddenKey": "banner_table_hidden_until"
+                },
+                {
+                    "id": "mass_renewal",
+                    "badge": "New",
+                    "title": "Массовое продление",
+                    "description": "Выбери несколько кредитов и продли их все сразу",
+                    "button": "Попробовать",
+                    "link": "/pledge",
+                    "hiddenKey": "banner_mass_hidden_until"
+                }
+            ]
         }
     }
 }
