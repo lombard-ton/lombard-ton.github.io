@@ -17,7 +17,6 @@
     },
     "bankAddress": "kQDuWhldFshmr2Drf5rlL620FaRhtECKQ4X5W3hRKCuRvZI2",
     "creditCollectionAddress": [
-        "0:810fc3f8394d6b3394c4d027299a2c765ee86ecffd024e99e66e59b425e8cbca",
         "0:4b9642c5cc4a504dfc47f4d4046a6f12be8b16bf39b0b754e290c4db88de387e",
         "0:bc771610c6f53eef2f5767088cfba400420cdd8e8a720f0ccdc99b8d2137e347",
         "0:057b9020572bb5db51a66cca15f8ac71172bd5a98f78697638cf323c0056ac25"
@@ -29,11 +28,13 @@
     ],
     "holderCollectionsProps": [
         {
+            "permissions": 3,
             "limitAttributes": {
                 "default": 25
             }
         },
         {
+            "permissions": 5,
             "limitAttributes": {
                 "default": 25
             }
@@ -186,5 +187,6 @@
                 }
             ]
         }
-    }
+    },
+    "refLifetime": 3601
 }
